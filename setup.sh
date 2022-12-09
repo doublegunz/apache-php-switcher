@@ -60,4 +60,10 @@ sudo apt-get install -y php8.1 php8.1-common php8.1-cli > /dev/null
 echo "* Installing PHP 8.1 extensions..."
 sudo apt-get install -y php8.1-bz2 php8.1-curl php8.1-gd php8.1-mbstring php8.1-mysql php8.1-sqlite3 php8.1-tidy php8.1-xml php8.1-xsl php8.1-zip php8.1-pgsql > /dev/null
 
+echo "* Installing PHP 8.2..."
+sudo apt-get install -y php8.2 php8.2-common php8.2-cli > /dev/null
+
+echo "* Installing PHP 8.2 extensions..."
+sudo apt-get install -y php8.2-bz2 php8.2-curl php8.2-gd php8.2-mbstring php8.2-mysql php8.2-sqlite3 php8.2-tidy php8.2-xml php8.2-xsl php8.2-zip php8.2-pgsql > /dev/null
+
 echo "* Setup complete. You may now use the 'switch-to-php-*.*.sh' scripts."
