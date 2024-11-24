@@ -30,6 +30,9 @@ sudo a2dismod php8.3 > /dev/null
 echo "* Enabling Apache PHP 7.1 module..."
 sudo a2enmod php7.1 > /dev/null
 
+echo "* Disabling Apache PHP 8.4 module..."
+sudo a2dismod php8.4 > /dev/null
+
 echo "* Restarting Apache..."
 sudo service apache2 restart > /dev/null
 

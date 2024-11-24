@@ -72,4 +72,10 @@ sudo apt-get install -y php8.3 php8.3-common php8.3-cli > /dev/null
 echo "* Installing PHP 8.3 extensions..."
 sudo apt-get install -y php8.3-bz2 php8.3-curl php8.3-gd php8.3-mbstring php8.3-mysql php8.3-sqlite3 php8.3-tidy php8.3-xml php8.3-xsl php8.3-zip php8.3-pgsql > /dev/null
 
+echo "* Installing PHP 8.4..."
+sudo apt-get install -y php8.4 php8.4-common php8.4-cli > /dev/null
+
+echo "* Installing PHP 8.4 extensions..."
+sudo apt-get install -y php8.4-bz2 php8.4-curl php8.4-gd php8.4-mbstring php8.4-mysql php8.4-sqlite3 php8.4-tidy php8.4-xml php8.4-xsl php8.4-zip php8.4-pgsql > /dev/null
+
 echo "* Setup complete. You may now use the 'switch-to-php-*.*.sh' scripts."
